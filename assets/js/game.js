@@ -99,11 +99,11 @@ for (var i = 0; i < enemyNames.length; i++) {
     break;
   }
   startGame ();
-  endGame();
   }
 };
 
 startGame ();
+endGame();
 
 var endGame = function() {
   if (playerHealth > 0) {
